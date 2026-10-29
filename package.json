@@ -1,0 +1,47 @@
+{
+  "name": "wwcc-promo-video",
+  "version": "1.0.0",
+  "description": "Premium cinematic promo video for Wagga Wagga Community Care \u2013 Remotion (React + TypeScript) + FFmpeg",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "prep:footage": "bash scripts/prepare-footage.sh",
+    "prep:matte": "python3 scripts/make_matte.py && python3 scripts/assemble_matte.py",
+    "build:map": "node scripts/build-map-data.mjs",
+    "audio": "tsx scripts/make-audio.ts",
+    "render:video": "remotion render src/index.ts WWCCPromo out/video-silent.mp4 --codec=h264 --crf=15 --pixel-format=yuv420p --color-space=bt709 --image-format=png --timeout=120000",
+    "mux": "bash scripts/mux.sh",
+    "render": "npm run render:video && npm run audio && npm run mux",
+    "stills": "node scripts/dev-stills.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeezbadal-cloud/my-project.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@fontsource/manrope": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@remotion/cli": "4.0.539",
+    "@remotion/noise": "4.0.539",
+    "@remotion/paths": "4.0.539",
+    "@remotion/shapes": "4.0.539",
+    "lucide": "^1.63.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
+    "topojson-client": "^3.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "world-atlas": "^2.0.2"
+  }
+}

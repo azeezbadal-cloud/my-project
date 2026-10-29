@@ -1,0 +1,24 @@
+# dependencies / build output
+node_modules/
+out/
+.remotion/
+*.log
+
+# raw + generated media (large, may contain people) – keep out of the public repo
+assets/original/*
+assets/work/*
+public/footage.mp4
+public/fg*.webm
+public/matte/
+public/audio/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+!assets/README.md
+
+# python caches
+__pycache__/
+*.pyc
