@@ -1,0 +1,99 @@
+piece_id,set_code,set_name,description,artwork_svg,sheet_page_us_letter,sheet_page_a4,position_us_in_xy,size_in,used_on_pages,used_by_missions,board_targets
+RD1,RD,Rainbow drops,red drop,drop_red.svg,41,41,"0.73,1.38",1.55 x 1.55,5,M01,p5: red cloud
+RD2,RD,Rainbow drops,orange drop,drop_orange.svg,41,41,"2.56,1.38",1.55 x 1.55,5,M01,p5: orange cloud
+RD3,RD,Rainbow drops,yellow drop,drop_yellow.svg,41,41,"4.39,1.38",1.55 x 1.55,5,M01,p5: yellow cloud
+RD4,RD,Rainbow drops,green drop,drop_green.svg,41,41,"6.22,1.38",1.55 x 1.55,5,M01,p5: green cloud
+RD5,RD,Rainbow drops,blue drop,drop_blue.svg,41,41,"0.73,3.21",1.55 x 1.55,5 40,M01 M36,p5: blue cloud ; p40: Stop 1 · Colour (Find the BLUE drop)
+RD6,RD,Rainbow drops,purple drop,drop_purple.svg,41,41,"2.56,3.21",1.55 x 1.55,5,M01,p5: purple cloud
+SH1,SH,Shapes,circle,shape_circle.svg,41,41,"4.39,3.21",1.55 x 1.55,6,M02,p6: circle outline
+SH2,SH,Shapes,square,shape_square.svg,41,41,"6.22,3.21",1.55 x 1.55,6,M02,p6: square outline
+SH3,SH,Shapes,triangle,shape_triangle.svg,41,41,"0.73,5.04",1.55 x 1.55,6,M02,p6: triangle outline
+SH4,SH,Shapes,rectangle,shape_rectangle.svg,41,41,"2.56,5.04",1.55 x 1.55,6,M02,p6: rectangle outline
+SH5,SH,Shapes,star,shape_star.svg,41,41,"4.39,5.04",1.55 x 1.55,6 40,M02 M36,p6: star outline ; p40: Stop 2 · Shape (Find the STAR)
+IC1,IC,Ice-cream scoops,strawberry scoop,scoop_strawberry.svg,41,41,"6.22,5.04",1.55 x 1.55,7,M03,p7: order 1 bottom scoop (strawberry)
+IC2,IC,Ice-cream scoops,chocolate scoop,scoop_chocolate.svg,41,41,"0.73,6.87",1.55 x 1.55,7,M03,p7: order 1 top scoop (chocolate)
+IC3,IC,Ice-cream scoops,mint scoop,scoop_mint.svg,41,41,"2.56,6.87",1.55 x 1.55,7,M03,p7: order 2 bottom scoop (mint)
+IC4,IC,Ice-cream scoops,lemon scoop,scoop_lemon.svg,41,41,"4.39,6.87",1.55 x 1.55,7,M03,p7: order 2 top scoop (lemon)
+IC5,IC,Ice-cream scoops,blueberry scoop,scoop_blueberry.svg,41,41,"6.22,6.87",1.55 x 1.55,7,M03,p7: order 3 bottom scoop (blueberry)
+IC6,IC,Ice-cream scoops,orange scoop,scoop_orange.svg,41,41,"0.73,8.70",1.55 x 1.55,7,M03,p7: order 3 top scoop (orange)
+RB1,RB,Robot parts,antenna,robot_antenna.svg,42,42,"0.73,1.38",1.55 x 1.55,10,M06,p10: robot antenna
+RB2,RB,Robot parts,robot head,robot_head.svg,42,42,"2.56,1.38",1.55 x 1.55,10,M06,p10: robot head
+RB3,RB,Robot parts,robot body,robot_body.svg,42,42,"4.39,1.38",1.55 x 1.55,10,M06,p10: robot body
+RB4,RB,Robot parts,wheels,robot_wheels.svg,42,42,"6.22,1.38",1.55 x 1.55,10,M06,p10: robot wheels
+AN1,AN,Animal friends,fish,fish.svg,42,42,"0.73,3.21",1.55 x 1.55,11 13,M07 M09,p11: ocean (fish) ; p13: fish shadow
+AN2,AN,Animal friends,cow,cow.svg,42,42,"2.56,3.21",1.55 x 1.55,11 13,M07 M09,p11: farm field (cow) ; p13: cow shadow
+AN3,AN,Animal friends,monkey,monkey.svg,42,42,"4.39,3.21",1.55 x 1.55,11 13,M07 M09,p11: rainforest (monkey) ; p13: monkey shadow
+AN4,AN,Animal friends,penguin,penguin.svg,42,42,"6.22,3.21",1.55 x 1.55,11 13 40,M07 M09 M36,p11: icy land (penguin) ; p13: penguin shadow ; p40: Stop 4 · Picture (Who lives on the ice?)
+AN5,AN,Animal friends,camel,camel.svg,42,42,"0.73,5.04",1.55 x 1.55,11 13,M07 M09,p11: desert (camel) ; p13: camel shadow
+AN6,AN,Animal friends,frog,frog.svg,42,42,"2.56,5.04",1.55 x 1.55,11 13,M07 M09,p11: pond (frog) ; p13: frog shadow
+AP1,AP,Animal parts,rabbit ears,part_rabbit_ears.svg,41,41,"2.56,8.70",1.55 x 1.55,14,M10,p14: rabbit's missing ears
+AP2,AP,Animal parts,fox tail,part_fox_tail.svg,41,41,"4.39,8.70",1.55 x 1.55,14,M10,p14: fox's missing tail
+AP3,AP,Animal parts,elephant trunk,part_elephant_trunk.svg,41,41,"6.22,8.70",1.55 x 1.55,14,M10,p14: elephant's missing trunk
+FM1,FM,Farm friends,hen,hen.svg,42,42,"4.39,5.04",1.55 x 1.55,15,M11,p15: hen house (hen)
+FM2,FM,Farm friends,pig,pig.svg,42,42,"6.22,5.04",1.55 x 1.55,15,M11,p15: mud puddle (pig)
+FM3,FM,Farm friends,duck,duck.svg,42,42,"0.73,6.87",1.55 x 1.55,15,M11,p15: pond (duck)
+OC1,OC,Sea friends,octopus,octopus.svg,42,42,"2.56,6.87",1.55 x 1.55,16,M12,p16: octopus (by the rocks)
+OC2,OC,Sea friends,turtle,turtle.svg,42,42,"4.39,6.87",1.55 x 1.55,16,M12,p16: turtle (swimming in the sea)
+OC3,OC,Sea friends,crab,crab.svg,42,42,"6.22,6.87",1.55 x 1.55,16,M12,p16: crab (on the sand)
+NU1,NU,Number cards,number 1,native text + dots,43,43,"0.73,1.38",1.55 x 1.55,17 18 22,M13 M14 M18,"p17: train carriage 1 ; p18: bunch 3 (1 balloons) ; p22: tower 1, level 1"
+NU2,NU,Number cards,number 2,native text + dots,43,43,"2.56,1.38",1.55 x 1.55,17 18 22,M13 M14 M18,"p17: train carriage 2 ; p18: bunch 1 (2 balloons) ; p22: tower 1, level 2"
+NU3,NU,Number cards,number 3,native text + dots,43,43,"4.39,1.38",1.55 x 1.55,17 18 22,M13 M14 M18,"p17: train carriage 3 ; p18: bunch 5 (3 balloons) ; p22: tower 1, level 3"
+NU4,NU,Number cards,number 4,native text + dots,43,43,"6.22,1.38",1.55 x 1.55,17 18 22 40,M13 M14 M18 M36,"p17: train carriage 4 ; p18: bunch 2 (4 balloons) ; p22: tower 1, level 4 ; p40: Stop 3 · Count (How many apples?)"
+NU5,NU,Number cards,number 5,native text + dots,43,43,"0.73,3.21",1.55 x 1.55,17 18 22,M13 M14 M18,"p17: train carriage 5 ; p18: bunch 4 (5 balloons) ; p22: tower 1, level 5"
+NU6,NU,Number cards,number 6,native text + dots,43,43,"2.56,3.21",1.55 x 1.55,17 18 22,M13 M14 M18,"p17: train carriage 6 ; p18: bunch 6 (6 balloons) ; p22: tower 2, level 1"
+NU7,NU,Number cards,number 7,native text + dots,43,43,"4.39,3.21",1.55 x 1.55,17 20 22,M13 M16 M18,"p17: train carriage 7 ; p20: tray 1 (7 cupcakes) ; p22: tower 2, level 2"
+NU8,NU,Number cards,number 8,native text + dots,43,43,"6.22,3.21",1.55 x 1.55,17 20 22,M13 M16 M18,"p17: train carriage 8 ; p20: tray 3 (8 cupcakes) ; p22: tower 2, level 3"
+NU9,NU,Number cards,number 9,native text + dots,43,43,"0.73,5.04",1.55 x 1.55,17 20 22,M13 M16 M18,"p17: train carriage 9 ; p20: tray 4 (9 cupcakes) ; p22: tower 2, level 4"
+NU10,NU,Number cards,number 10,native text + dots,43,43,"2.56,5.04",1.55 x 1.55,17 20 22,M13 M16 M18,"p17: train carriage 10 ; p20: tray 2 (10 cupcakes) ; p22: tower 2, level 5"
+TR1,TR,Monster cookies,cookie,cookie.svg,43,43,"4.39,5.04",1.55 x 1.55,19,M15,p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie)
+TR2,TR,Monster cookies,cookie,cookie.svg,43,43,"6.22,5.04",1.55 x 1.55,19,M15,p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie)
+TR3,TR,Monster cookies,cookie,cookie.svg,43,43,"0.73,6.87",1.55 x 1.55,19,M15,p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie)
+TR4,TR,Monster cookies,cookie,cookie.svg,43,43,"2.56,6.87",1.55 x 1.55,19,M15,p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie)
+TR5,TR,Monster cookies,cookie,cookie.svg,43,43,"4.39,6.87",1.55 x 1.55,19,M15,p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie) ; p19: plate (any cookie)
+WE1,WE,Weather wear,sun hat,sunhat.svg,42,42,"0.73,8.70",1.55 x 1.55,23,M19,p23: sunny weather (sun hat)
+WE2,WE,Weather wear,rain boots,rainboots.svg,42,42,"2.56,8.70",1.55 x 1.55,23,M19,p23: rainy weather (rain boots)
+WE3,WE,Weather wear,warm scarf,scarf.svg,42,42,"4.39,8.70",1.55 x 1.55,23,M19,p23: cold weather (warm scarf)
+FA1,FA,Face features,round eyes,eyes_round.svg,43,43,"6.22,6.87",1.55 x 1.55,24,M20,p24: eyes (any eye card)
+FA2,FA,Face features,smiley eyes,eyes_happy.svg,43,43,"0.73,8.70",1.55 x 1.55,24,M20,p24: eyes (any eye card)
+FA3,FA,Face features,big smile,mouth_smile.svg,43,43,"2.56,8.70",1.55 x 1.55,24,M20,p24: mouth (any mouth card)
+FA4,FA,Face features,'oh!' mouth,mouth_o.svg,43,43,"4.39,8.70",1.55 x 1.55,24,M20,p24: mouth (any mouth card)
+FA5,FA,Face features,wobbly mouth,mouth_wobbly.svg,43,43,"6.22,8.70",1.55 x 1.55,24,M20,p24: mouth (any mouth card)
+RT1,RT,Morning routine,wake up,rt_wake.svg,44,44,"0.73,1.38",1.55 x 1.55,26,M22,p26: step 1 (first)
+RT2,RT,Morning routine,wash,rt_wash.svg,44,44,"2.56,1.38",1.55 x 1.55,26,M22,p26: step 2 (next)
+RT3,RT,Morning routine,brush teeth,rt_brush.svg,44,44,"4.39,1.38",1.55 x 1.55,26,M22,p26: step 3 (then)
+RT4,RT,Morning routine,get dressed,rt_dress.svg,44,44,"6.22,1.38",1.55 x 1.55,26,M22,p26: step 4 (last)
+TD1,TD,Teddy's outfit,hat,teddy_hat.svg,44,44,"0.73,3.21",1.55 x 1.55,27,M23,p27: teddy's hat
+TD2,TD,Teddy's outfit,jumper,jumper.svg,44,44,"2.56,3.21",1.55 x 1.55,27,M23,p27: teddy's jumper
+TD3,TD,Teddy's outfit,boots,teddy_boots.svg,44,44,"4.39,3.21",1.55 x 1.55,27,M23,p27: teddy's boots
+SM1,SM,Shopping,apple,apple.svg,44,44,"6.22,3.21",1.55 x 1.55,29,M25,p29: fruit & veg shelf ; p29: fruit & veg shelf
+SM2,SM,Shopping,carrot,carrot.svg,44,44,"0.73,5.04",1.55 x 1.55,29,M25,p29: fruit & veg shelf ; p29: fruit & veg shelf
+SM3,SM,Shopping,bread,bread.svg,44,44,"2.56,5.04",1.55 x 1.55,29,M25,p29: bakery shelf ; p29: bakery shelf
+SM4,SM,Shopping,croissant,croissant.svg,44,44,"4.39,5.04",1.55 x 1.55,29,M25,p29: bakery shelf ; p29: bakery shelf
+SM5,SM,Shopping,milk,milk.svg,44,44,"6.22,5.04",1.55 x 1.55,29,M25,p29: dairy shelf ; p29: dairy shelf
+SM6,SM,Shopping,cheese,cheese.svg,44,44,"0.73,6.87",1.55 x 1.55,29,M25,p29: dairy shelf ; p29: dairy shelf
+HO1,HO,Home things,toothbrush,toothbrush.svg,44,44,"2.56,6.87",1.55 x 1.55,31,M27,p31: bathroom (toothbrush)
+HO2,HO,Home things,pillow,pillow.svg,44,44,"4.39,6.87",1.55 x 1.55,31,M27,p31: bedroom (pillow)
+HO3,HO,Home things,saucepan,saucepan.svg,44,44,"6.22,6.87",1.55 x 1.55,31,M27,p31: kitchen (saucepan)
+CH1,CH,Sandwich fillings,lettuce,lettuce.svg,44,44,"0.73,8.70",1.55 x 1.55,32,M28,p32: sandwich step 2 (lettuce)
+CH2,CH,Sandwich fillings,cheese,cheese_slice.svg,44,44,"2.56,8.70",1.55 x 1.55,32,M28,p32: sandwich step 3 (cheese)
+CH3,CH,Sandwich fillings,tomato,tomato_slices.svg,44,44,"4.39,8.70",1.55 x 1.55,32,M28,p32: sandwich step 4 (tomato)
+VE1,VE,Vehicles,plane,plane.svg,45,45,"0.73,1.38",1.55 x 1.55,33,M29,p33: sky (plane)
+VE2,VE,Vehicles,car,car.svg,45,45,"2.56,1.38",1.55 x 1.55,33,M29,p33: road (car)
+VE3,VE,Vehicles,train,train.svg,45,45,"4.39,1.38",1.55 x 1.55,33,M29,p33: railway (train)
+VE4,VE,Vehicles,boat,boat.svg,45,45,"6.22,1.38",1.55 x 1.55,33,M29,p33: water (boat)
+TM1,TM,Map landmarks,palm tree,palm.svg,45,45,"0.73,3.21",1.55 x 1.55,35,M31,p35: palm tree
+TM2,TM,Map landmarks,bridge,bridge.svg,45,45,"2.56,3.21",1.55 x 1.55,35,M31,p35: bridge (start)
+TM3,TM,Map landmarks,lighthouse,lighthouse.svg,45,45,"4.39,3.21",1.55 x 1.55,35,M31,p35: lighthouse
+CA1,CA,Castle pieces,blue roof,roof_left.svg,45,45,"6.22,3.21",1.55 x 1.55,36,M32,p36: left tower roof
+CA2,CA,Castle pieces,purple roof,roof_right.svg,45,45,"0.73,5.04",1.55 x 1.55,36,M32,p36: right tower roof
+CA3,CA,Castle pieces,door,castle_door.svg,45,45,"2.56,5.04",1.55 x 1.55,36,M32,p36: castle door
+CA4,CA,Castle pieces,flag,castle_flag.svg,45,45,"4.39,5.04",1.55 x 1.55,36,M32,p36: flag on the wall
+MP1,MP,Memory pairs,sun,sun.svg,45,45,"6.22,5.04",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP2,MP,Memory pairs,sun,sun.svg,45,45,"0.73,6.87",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP3,MP,Memory pairs,boat,boat.svg,45,45,"2.56,6.87",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP4,MP,Memory pairs,boat,boat.svg,45,45,"4.39,6.87",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP5,MP,Memory pairs,apple,apple.svg,45,45,"6.22,6.87",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP6,MP,Memory pairs,apple,apple.svg,45,45,"0.73,8.70",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP7,MP,Memory pairs,tulip,tulip.svg,45,45,"2.56,8.70",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+MP8,MP,Memory pairs,tulip,tulip.svg,45,45,"4.39,8.70",1.55 x 1.55,39,M35,p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card) ; p39: memory card spot (any card)
+ST1-ST6,ST,Reward stars (optional),colour-in or cut-out chapter stars,reward_star_blank.svg,47,47,,1.65 star,4,chapter rewards,p4 Mission Map milestone stars (optional)

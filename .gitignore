@@ -22,3 +22,6 @@ public/audio/
 # python caches
 __pycache__/
 *.pyc
+
+# busy book build caches
+busy-book/build/
