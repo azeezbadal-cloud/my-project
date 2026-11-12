@@ -1,0 +1,81 @@
+{
+  "brand": {
+    "Sunshine Yellow": "#FFD348",
+    "Sky Blue": "#64C8ED",
+    "Lime Green": "#A8D849",
+    "Coral": "#F26855",
+    "Playful Pink": "#F7B6D2",
+    "Warm Cream": "#FFF9EA",
+    "Dark Navy": "#18354B",
+    "White": "#FFFFFF"
+  },
+  "supporting": {
+    "Explorer Purple (chapter 6 accent)": "#B58BE0",
+    "Leo Gold": "#F4B940",
+    "Leo Mane": "#E98A2E",
+    "Activity Red": "#E8473B",
+    "Activity Orange": "#F7923A",
+    "Activity Green": "#6CC04A",
+    "Activity Blue": "#3FA9E0",
+    "Activity Purple": "#9B6BD3",
+    "Hint Grey": "#8C9BA7"
+  },
+  "chapters": {
+    "Colour Kingdom": {
+      "main": "#F7B6D2",
+      "deep": "#D8578F",
+      "tint": "#FDEAF3"
+    },
+    "Animal Island": {
+      "main": "#A8D849",
+      "deep": "#5E9A1E",
+      "tint": "#EFF8DD"
+    },
+    "Number Town": {
+      "main": "#64C8ED",
+      "deep": "#1F86B3",
+      "tint": "#E2F4FB"
+    },
+    "Feelings Forest": {
+      "main": "#FFD348",
+      "deep": "#B98700",
+      "tint": "#FFF6D6"
+    },
+    "Everyday Village": {
+      "main": "#F26855",
+      "deep": "#C8402E",
+      "tint": "#FDE4E0"
+    },
+    "Adventure Land": {
+      "main": "#B58BE0",
+      "deep": "#7A4FB8",
+      "tint": "#F1E9FA"
+    }
+  },
+  "activity_colour_symbol_pairs": {
+    "red": {
+      "hex": "#E8473B",
+      "symbol": "heart"
+    },
+    "orange": {
+      "hex": "#F7923A",
+      "symbol": "circle"
+    },
+    "yellow": {
+      "hex": "#FFD348",
+      "symbol": "star"
+    },
+    "green": {
+      "hex": "#6CC04A",
+      "symbol": "leaf"
+    },
+    "blue": {
+      "hex": "#3FA9E0",
+      "symbol": "wave"
+    },
+    "purple": {
+      "hex": "#9B6BD3",
+      "symbol": "diamond"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+page_number,section,page_type,title,mission_number,child_instruction,skill,cut_out_pieces
+1,Introduction,cover,Cover,,,,
+2,Introduction,intro,This Book Belongs To,,,,
+3,Introduction,intro,Parent Setup Guide,,,,
+4,Introduction,intro,My Little Mission Map,,,,
+5,Colour Kingdom,activity board,RAINBOW RESCUE,01,Match each raindrop to its cloud!,MATCH,RD1 RD2 RD3 RD4 RD5 RD6
+6,Colour Kingdom,activity board,SHAPE DETECTIVES,02,Find the shape that fits each shadow!,MATCH,SH1 SH2 SH3 SH4 SH5
+7,Colour Kingdom,activity board,ICE CREAM SHOP,03,Make each ice cream match the order!,BUILD,IC1 IC2 IC3 IC4 IC5 IC6
+8,Colour Kingdom,activity board (no-cut),COLOUR SORTING GARDEN,04,Draw a line from each flower to its pot!,SORT,none
+9,Colour Kingdom,activity board (no-cut),FINISH THE PATTERN,05,What comes next? Circle it!,EXPLORE,none
+10,Colour Kingdom,activity board,BUILD A FUNNY ROBOT,06,Stack the pieces to build a robot!,BUILD,RB1 RB2 RB3 RB4
+11,Animal Island,activity board,FIND MY HOME,07,Help each animal find its home!,MATCH,AN1 AN2 AN3 AN4 AN5 AN6
+12,Animal Island,activity board (no-cut),WHAT DO I EAT?,08,Draw a line from each animal to its food!,MATCH,none
+13,Animal Island,activity board,ANIMAL SHADOW SEARCH,09,Match each animal to its shadow!,MATCH,AN1 AN2 AN3 AN4 AN5 AN6
+14,Animal Island,activity board,MISSING ANIMAL PARTS,10,Find the missing part!,BUILD,AP1 AP2 AP3
+15,Animal Island,activity board,FARMYARD FRIENDS,11,Put each farm friend in its place!,EXPLORE,FM1 FM2 FM3
+16,Animal Island,activity board,OCEAN EXPLORERS,12,Place each sea friend in the ocean!,IMAGINE,OC1 OC2 OC3
+17,Number Town,activity board,NUMBER TRAIN,13,"Put the numbers in order, 1 to 10!",COUNT,NU1 NU2 NU3 NU4 NU5 NU6 NU7 NU8 NU9 NU10
+18,Number Town,activity board,COUNT THE BALLOONS,14,Count the balloons. Find the number!,COUNT,NU1 NU2 NU3 NU4 NU5 NU6
+19,Number Town,activity board,FEED THE MONSTER,15,Give the monster the right number of cookies!,COUNT,TR1 TR2 TR3 TR4 TR5
+20,Number Town,activity board,LITTLE NUMBER BAKERY,16,Count the cupcakes. Add the number!,COUNT,NU7 NU8 NU9 NU10
+21,Number Town,activity board (no-cut),MORE OR LESS?,17,Circle the group with MORE!,COUNT,none
+22,Number Town,activity board,BUILD A NUMBER TOWER,18,Build towers from 1 at the bottom!,BUILD,NU1 NU2 NU3 NU4 NU5 NU6 NU7 NU8 NU9 NU10
+23,Feelings Forest,activity board,DRESS FOR THE WEATHER,19,What should Leo wear today?,SORT,WE1 WE2 WE3
+24,Feelings Forest,activity board,MAKE A HAPPY FACE,20,Change Leo's eyes and mouth!,IMAGINE,FA1 FA2 FA3 FA4 FA5
+25,Feelings Forest,activity board (no-cut),HOW DO I FEEL?,21,Draw a line from each face to a feeling word!,MATCH,none
+26,Feelings Forest,activity board,"WASH, BRUSH, GET READY!",22,Put the morning cards in order!,SORT,RT1 RT2 RT3 RT4
+27,Feelings Forest,activity board,MY TEDDY'S OUTFIT,23,Dress Teddy for a cosy day out!,IMAGINE,TD1 TD2 TD3
+28,Feelings Forest,activity board (no-cut),KINDNESS GARDEN,24,Draw a line to a kind way to help!,EXPLORE,none
+29,Everyday Village,activity board,MY LITTLE SUPERMARKET,25,Put each food on the right shelf!,SORT,SM1 SM2 SM3 SM4 SM5 SM6
+30,Everyday Village,activity board (no-cut),PACK MY BACKPACK,26,Circle the things to take to preschool!,SORT,none
+31,Everyday Village,activity board,WHAT GOES WHERE?,27,Find the room for each thing!,SORT,HO1 HO2 HO3
+32,Everyday Village,activity board,LITTLE CHEF'S KITCHEN,28,Follow the recipe to build a sandwich!,BUILD,CH1 CH2 CH3
+33,Everyday Village,activity board,ON THE ROAD,29,Where does each vehicle go?,MATCH,VE1 VE2 VE3 VE4
+34,Everyday Village,activity board (no-cut),"MY DAY, MY WAY",30,When do you do these? Draw a line!,SORT,none
+35,Adventure Land,activity board,TREASURE MAP MATCH,31,Put each landmark on the map!,EXPLORE,TM1 TM2 TM3
+36,Adventure Land,activity board,BUILD A LITTLE CASTLE,32,"Add the roofs, the door and the flag!",BUILD,CA1 CA2 CA3 CA4
+37,Adventure Land,activity board (no-cut),WHAT COMES NEXT?,33,Circle what happens next!,EXPLORE,none
+38,Adventure Land,activity board (no-cut),NATURE DISCOVERY,34,Draw a line to the right basket!,SORT,none
+39,Adventure Land,activity board,FIND THE PAIRS,35,Turn over two cards. Do they match?,MATCH,MP1 MP2 MP3 MP4 MP5 MP6 MP7 MP8
+40,Adventure Land,activity board,GRAND FINALE: HELP LEO GET HOME,36,Finish every stop to get Leo home!,EXPLORE,RD5 SH5 NU4 AN4
+41,Piece sheets,pieces,Cut-out Sheet 1 of 5,,,,RD1 RD2 RD3 RD4 RD5 RD6 SH1 SH2 SH3 SH4 SH5 IC1 IC2 IC3 IC4 IC5 IC6 AP1 AP2 AP3
+42,Piece sheets,pieces,Cut-out Sheet 2 of 5,,,,RB1 RB2 RB3 RB4 AN1 AN2 AN3 AN4 AN5 AN6 FM1 FM2 FM3 OC1 OC2 OC3 WE1 WE2 WE3
+43,Piece sheets,pieces,Cut-out Sheet 3 of 5,,,,NU1 NU2 NU3 NU4 NU5 NU6 NU7 NU8 NU9 NU10 TR1 TR2 TR3 TR4 TR5 FA1 FA2 FA3 FA4 FA5
+44,Piece sheets,pieces,Cut-out Sheet 4 of 5,,,,RT1 RT2 RT3 RT4 TD1 TD2 TD3 SM1 SM2 SM3 SM4 SM5 SM6 HO1 HO2 HO3 CH1 CH2 CH3
+45,Piece sheets,pieces,Cut-out Sheet 5 of 5,,,,VE1 VE2 VE3 VE4 TM1 TM2 TM3 CA1 CA2 CA3 CA4 MP1 MP2 MP3 MP4 MP5 MP6 MP7 MP8
+46,Adult reference,reference,Adult Reference,,,,
+47,Reward,certificate,Certificate and Reward Stars,,,,
+48,Back cover,back,Back Cover,,,,
