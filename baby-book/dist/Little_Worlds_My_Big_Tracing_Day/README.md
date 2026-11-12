@@ -1,6 +1,6 @@
 # Little Worlds Learning · My Big Tracing Day (ages 2–4)
 
-Created by **Azeez Khudeeda**. A colourful 78-page tracing book that follows three toddler friends – **Mia, Leo and Kai** – through one happy day. v1.0 (November 2026).
+Made by **Azeez**. A colourful 78-page tracing book that follows three toddler friends – **Mia, Leo and Kai** – through one happy day. v1.0 (November 2026).
 Shopify PDF (AUD $8.99 suggested) and Amazon KDP paperback (US$11.99–13.99 suggested, premium colour).
 
 ## Book structure
