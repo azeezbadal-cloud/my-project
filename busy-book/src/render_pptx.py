@@ -85,7 +85,7 @@ def render(pages, out_path, notes=None):
     maxsz = {}
     for p in pages:
         for e in p.els:
-            if e["t"] == "img":
+            if e["t"] == "img" and "photo:" not in e["asset"]:
                 maxsz[e["asset"]] = max(maxsz.get(e["asset"], 0), e["w"], e["h"])
     for p in pages:
         s = prs.slides.add_slide(blank)
@@ -116,6 +116,17 @@ def render(pages, out_path, notes=None):
                 sh = b.convert_to_shape()
                 _strip_style(sh)
                 _fill_line(sh, dict(e, fill=e["fill"] if e["closed"] else None))
+            elif t == "img" and "photo:" in e["asset"]:
+                import render_pdf
+                from PIL import Image as _I
+                path = render_pdf.PHOTOS[e["asset"].split("photo:", 1)[1]]
+                iw, ih = _I.open(path).size
+                sc = min(e["w"] / iw, e["h"] / ih)
+                dw, dh = iw * sc, ih * sc
+                pic = s.shapes.add_picture(path, E(e["x"] + (e["w"] - dw) / 2), E(e["y"] + (e["h"] - dh) / 2), E(dw), E(dh))
+                pic.name = f"Photo: {e['asset'].split('photo:', 1)[1]}"
+                if e.get("rot"):
+                    pic.rotation = e["rot"]
             elif t == "img":
                 aw, ah = art_lib.get_size(e["asset"])
                 sc = min(e["w"] / aw, e["h"] / ah)

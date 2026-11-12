@@ -1,0 +1,79 @@
+page,chapter,title,activity,pictures
+1,intro,Personalised title page,,cover_trio
+2,intro,Meet the friends,,portrait_kai portrait_leo portrait_mia
+3,intro,Grown-up guide,,
+4,intro,My big day map,,scene_bath_circle scene_bedtime_circle scene_breakfast_circle scene_morning_circle scene_park_circle
+5,opener,Morning Lines,,scene_morning
+6,lines,Buzzy bees,I did it!,bee flower_blue flower_purple flower_red flower_yellow portrait_mia
+7,lines,Pitter-patter rain,I did it!,cloud_puff portrait_leo puddle
+8,lines,Roll the ball,I did it!,ball basket portrait_kai
+9,lines,Rockets go up!,I did it!,portrait_mia rocket star_item
+10,lines,Swimming fish,I did it!,fish portrait_leo turtle
+11,lines,Zig-zag car,I did it!,car house_home portrait_kai
+12,lines,"Hop, hop, bunny!",I did it!,carrot portrait_mia rabbit
+13,lines,Rainbow arches,I did it!,cloud_puff portrait_leo
+14,lines,Round bubbles,I did it!,duck portrait_kai
+15,lines,Loop-the-loop!,I did it!,cloud_puff plane portrait_mia
+16,lines,Snail swirls,I did it!,portrait_leo snail_body
+17,lines,Leo's line parade,I did it!,portrait_kai star_item
+18,opener,Breakfast Shapes,,scene_breakfast
+19,shapes,Circle,I did it!,portrait_leo sun
+20,shapes,Square,I did it!,gift portrait_kai
+21,shapes,Triangle,I did it!,party_hat portrait_mia
+22,shapes,Rectangle,I did it!,door portrait_leo
+23,shapes,Oval,I did it!,egg portrait_kai
+24,shapes,Star,I did it!,portrait_mia star_item
+25,shapes,Heart,I did it!,heart_big portrait_leo
+26,shapes,Diamond,I did it!,kite portrait_kai
+27,shapes,Shape house,I did it!,portrait_mia
+28,shapes,Shape parade,I did it!,portrait_leo
+29,opener,Park Paths,,scene_park
+30,paths,Mia walks home,I did it!,house_home portrait_mia
+31,paths,To the apple,I did it!,apple portrait_leo
+32,paths,Down to the boat,I did it!,boat portrait_kai
+33,paths,Zig-zag to the castle,I did it!,portrait_mia world_colour
+34,paths,Round to the moon,I did it!,moon portrait_leo
+35,paths,Wiggly snail trail,I did it!,portrait_kai snail_body
+36,paths,Balloon ride,I did it!,balloon_2 portrait_mia
+37,paths,Home time!,I did it!,house_home portrait_leo
+38,opener,Bath-time Numbers,,scene_bath
+39,numbers,Number 1,I did it!,portrait_mia sun
+40,numbers,Number 2,I did it!,fish portrait_leo
+41,numbers,Number 3,I did it!,balloon_2 portrait_kai
+42,numbers,Number 4,I did it!,duck portrait_mia
+43,numbers,Number 5,I did it!,portrait_leo star_item
+44,numbers,Number 6,I did it!,cupcake portrait_kai
+45,numbers,Number 7,I did it!,apple portrait_mia
+46,numbers,Number 8,I did it!,daisy portrait_leo
+47,numbers,Number 9,I did it!,ball portrait_kai
+48,numbers,Number 10,I did it!,leaf_green portrait_mia
+49,opener,Bedtime Letters,,scene_bedtime
+50,letters,Letter A,I did it!,apple portrait_kai
+51,letters,Letter B,I did it!,bee portrait_mia
+52,letters,Letter C,I did it!,car portrait_leo
+53,letters,Letter D,I did it!,duck portrait_kai
+54,letters,Letter E,I did it!,elephant portrait_mia
+55,letters,Letter F,I did it!,fish portrait_leo
+56,letters,Letter G,I did it!,gift portrait_kai
+57,letters,Letter H,I did it!,hen portrait_mia
+58,letters,Letter I,I did it!,icecream portrait_leo
+59,letters,Letter J,I did it!,jumper portrait_kai
+60,letters,Letter K,I did it!,kite portrait_mia
+61,letters,Letter L,I did it!,lion_face portrait_leo
+62,letters,Letter M,I did it!,monkey portrait_kai
+63,letters,Letter N,I did it!,nest portrait_mia
+64,letters,Letter O,I did it!,octopus portrait_leo
+65,letters,Letter P,I did it!,penguin portrait_kai
+66,letters,Letter Q,I did it!,portrait_mia quilt
+67,letters,Letter R,I did it!,portrait_leo rabbit
+68,letters,Letter S,I did it!,portrait_kai sun
+69,letters,Letter T,I did it!,portrait_mia turtle
+70,letters,Letter U,I did it!,portrait_leo umbrella
+71,letters,Letter V,I did it!,portrait_kai volcano
+72,letters,Letter W,I did it!,portrait_mia watermelon
+73,letters,Letter X,I did it!,portrait_leo xylophone
+74,letters,Letter Y,I did it!,portrait_kai yoyo
+75,letters,Letter Z,I did it!,portrait_mia zebra
+76,finish,Certificate,,cover_trio
+77,finish,Reward stickers,,balloon_2 heart_big rainbow shape_star star_item sun
+78,finish,My best drawing,,portrait_leo

@@ -26,3 +26,6 @@ __pycache__/
 # busy book build caches
 busy-book/build/
 tracing-book/build/
+baby-book/build/
+baby-book/dist/*.zip
+baby-book/dist/CUSTOMER_FILES/*.zip

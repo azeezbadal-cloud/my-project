@@ -1,6 +1,9 @@
 """Render Page objects to a vector PDF with ReportLab (+ svglib for artwork)."""
 import os
+from reportlab import rl_config
 from reportlab.pdfgen import canvas as rl_canvas
+
+rl_config.useA85 = 0   # binary image streams (smaller PDFs)
 from reportlab.lib.colors import HexColor
 from reportlab.graphics import renderPDF
 from svglib.svglib import svg2rlg
@@ -12,6 +15,7 @@ import art_lib
 from scene import FONTS
 
 _cache = {}
+PHOTOS = {}          # name -> raster file path, used by "photo:<name>" assets
 SVG_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "build", "svgcache")
 
 
@@ -89,6 +93,20 @@ def draw_page(c, p):
             if e["closed"]:
                 path.close()
             c.drawPath(path, stroke=1 if e["stroke"] else 0, fill=1 if (e["fill"] and e["closed"]) else 0)
+        elif t == "img" and "photo:" in e["asset"]:
+            from reportlab.lib.utils import ImageReader
+            ir = ImageReader(PHOTOS[e["asset"].split("photo:", 1)[1]])
+            iw, ih = ir.getSize()
+            bw, bh = X(e["w"]), X(e["h"])
+            s_ = min(bw / iw, bh / ih)
+            dw, dh = iw * s_, ih * s_
+            x0, y0 = X(e["x"]) + (bw - dw) / 2, Y(e["y"] + e["h"]) + (bh - dh) / 2
+            if e["rot"]:
+                cx, cy = x0 + dw / 2, y0 + dh / 2
+                c.translate(cx, cy)
+                c.rotate(-e["rot"])
+                c.translate(-cx, -cy)
+            c.drawImage(ir, x0, y0, dw, dh, mask="auto")
         elif t == "img":
             d = drawing(e["asset"])
             bw, bh = X(e["w"]), X(e["h"])
