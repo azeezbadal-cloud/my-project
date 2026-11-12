@@ -25,3 +25,4 @@ __pycache__/
 
 # busy book build caches
 busy-book/build/
+tracing-book/build/

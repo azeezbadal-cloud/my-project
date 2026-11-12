@@ -39,6 +39,11 @@ def _strip_style(shape):
         shape._element.remove(st)
 
 
+def _set_dash(line, dash):
+    line.dash_style = MSO_LINE.ROUND_DOT if dash[0] < 1 else MSO_LINE.DASH
+    line._get_or_add_ln().set("cap", "rnd")
+
+
 def _fill_line(shape, e):
     if e.get("fill"):
         shape.fill.solid()
@@ -49,7 +54,9 @@ def _fill_line(shape, e):
         shape.line.color.rgb = rgb(e["stroke"])
         shape.line.width = Pt(e.get("sw", 1))
         if e.get("dash"):
-            shape.line.dash_style = MSO_LINE.DASH
+            _set_dash(shape.line, e["dash"])
+        else:
+            shape.line._get_or_add_ln().set("cap", "rnd")
     else:
         shape.line.fill.background()
 
@@ -101,7 +108,7 @@ def render(pages, out_path, notes=None):
                 sh.line.color.rgb = rgb(e["stroke"])
                 sh.line.width = Pt(e["sw"])
                 if e.get("dash"):
-                    sh.line.dash_style = MSO_LINE.DASH
+                    _set_dash(sh.line, e["dash"])
             elif t == "poly":
                 pts = e["pts"]
                 b = s.shapes.build_freeform(E(pts[0][0]), E(pts[0][1]), scale=1.0)

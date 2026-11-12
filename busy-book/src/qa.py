@@ -275,7 +275,7 @@ def check_text(pages, ed):
     sizes = [e["size"] for p in pages for e in p.els if e["t"] == "text"]
     child = [e["size"] for p in mission_pages(pages) for e in p.els if e["t"] == "text" and e["y"] < p.H - 0.9 and e["font"] == "title"]
     out.append((PASS if not small else FAIL, f"[{ed}] no unreadably small text (min 6pt adult notes; mission instructions >= 12pt)",
-                ("; ".join(small) if small else f"smallest text {min(sizes):.1f}pt (adult reference table); smallest child-facing heading {min(child):.1f}pt")))
+                ("; ".join(small) if small else f"smallest text {min(sizes):.1f}pt (adult reference table); smallest child-facing heading {(min(child) if child else min(sizes)):.1f}pt")))
     return out
 
 
