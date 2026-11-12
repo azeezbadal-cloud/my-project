@@ -1,6 +1,6 @@
 # QA REPORT - My Big Tracing Day
 
-Generated 2026-11-12 23:48 by `bb_build.py`. Every PASS/FAIL below was executed in this build.
+Generated 2026-11-12 23:50 by `bb_build.py`. Every PASS/FAIL below was executed in this build.
 
 **Summary: 47 PASS · 9 NEEDS HUMAN REVIEW · 0 FAIL**
 
@@ -57,7 +57,7 @@ Generated 2026-11-12 23:48 by `bb_build.py`. Every PASS/FAIL below was executed 
 ## NEEDS HUMAN REVIEW (9)
 
 - **photo print resolution (target 300 dpi)** - lowest 213 dpi (cover_trio on page cover); 113/124 placements at 300+ dpi
-- **spelling and grammar** - pyspellchecker (en) on 356 distinct words: 21 flags are halves of the two-colour picture words (e.g. 'A' + 'pple'), 3 are playful words (buzzy, pitter, zag); remaining flags: kai, yay. Grammar not machine-checked.
+- **spelling and grammar** - pyspellchecker (en) on 359 distinct words: 21 flags are halves of the two-colour picture words (e.g. 'A' + 'pple'), 3 are playful words (buzzy, pitter, zag); remaining flags: azeez, kai, khudeeda, yay. Grammar not machine-checked.
 - **Physical print test** - Not run (no printer here). Print a few pages at Actual size; check dotted lines are visible but light and crayon works well.
 - **KDP proof copy** - Not run. Upload the interior + cover to KDP, use the online previewer, and order a printed proof before publishing. Confirm the spine width in KDP's cover calculator (computed here as 0.1757 in) and that standard colour is offered for 8.5 x 11 in your marketplace.
 - **Letter and number stroke shapes** - Strokes follow a simple print style (uppercase, top-to-bottom). An early-years educator should confirm the stroke order matches what local preschools teach.

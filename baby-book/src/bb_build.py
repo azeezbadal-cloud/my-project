@@ -99,7 +99,7 @@ def start_here_page():
         p.text(h_, 0.5, y, 7.5, 0.32, "title", 14, "#D9704A" if h_ == "SAFETY" else T.INK, valign="middle")
         th = p.text(b_, 0.5, y + 0.34, 7.5, 1.2, "body", 11.5, T.INK, leading=1.3)
         y += 0.34 + th + 0.28
-    p.text("© 2026 Little Worlds Learning · personal / household use only", 0.5, 10.3, 7.5, 0.25, "bold", 8.5, T.MUTED, align="center")
+    p.text("© 2026 Azeez Khudeeda · Little Worlds Learning · personal / household use only", 0.5, 10.3, 7.5, 0.25, "bold", 8.5, T.MUTED, align="center")
     return p
 
 

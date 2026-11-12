@@ -2,7 +2,7 @@
 
 **Title:** My Big Tracing Day
 **Subtitle:** A Colourful Tracing Book for Ages 2–4: Trace Lines, Shapes, Paths, Numbers 1–10 and Letters A–Z with Mia, Leo and Kai
-**Author / publisher name:** Little Worlds Learning (the name on your KDP account)
+**Author:** Azeez Khudeeda · **Publisher / imprint:** Little Worlds Learning
 **Reading age:** 2–4 years · **Language:** English
 
 ## Description

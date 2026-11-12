@@ -37,6 +37,7 @@ for f in os.listdir(PHOTO_DIR):
     render_pdf.PHOTOS[os.path.splitext(f)[0]] = os.path.join(PHOTO_DIR, f)
 
 TITLE = "My Big Tracing Day"
+AUTHOR = "Azeez Khudeeda"
 SUBTITLE = "Trace, count & play with Mia, Leo and Kai"
 FRIENDS = [("mia", "Mia", "#FFC21A"), ("leo", "Leo", "#2D9CDB"), ("kai", "Kai", "#F2545B")]
 FRIEND_LINES = {"mia": "Mia loves sunny yellow and bouncy balls.", "leo": "Leo loves blue skies and big trucks.",
@@ -138,7 +139,8 @@ class Book(T.Book):
         p.rect(M_ + 0.5 - 0.12, py - 0.12, pw + 0.24, ph + 0.24, fill=WHITE, r=0.2)
         p.img("photo:cover_trio", M_ + 0.5, py, pw, ph, role="photo")
         p.text("with Mia, Leo and Kai", M_, py + ph + 0.3, W - 2 * M_, 0.5, "title", 24, T.INK, align="center", valign="middle")
-        p.text("Lines · Shapes · Paths · Numbers · Letters", M_, py + ph + 0.85, W - 2 * M_, 0.4, "bold", 15, T.INK, align="center", valign="middle")
+        p.text("Lines \u00b7 Shapes \u00b7 Paths \u00b7 Numbers \u00b7 Letters", M_, py + ph + 0.85, W - 2 * M_, 0.4, "bold", 15, T.INK, align="center", valign="middle")
+        p.text(f"Created by {AUTHOR}  \u00b7  Little Worlds Learning", M_, py + ph + 1.35, W - 2 * M_, 0.35, "title", 14, "#C9303A", align="center", valign="middle")
         self.footer(p, "#FF9F1C")
 
     def belongs(self):
@@ -373,7 +375,7 @@ def back_cover(p, ox, oy, W, H, bleed=0.0, barcode=True):
     p.text(TITLE, ox + 0.6, oy + 0.8, W - 1.2, 0.6, "title", 32, T.INK, align="center", valign="middle")
     p.text("A colourful day of first tracing with Mia, Leo and Kai", ox + 0.6, oy + 1.4, W - 1.2, 0.4, "bold", 14, "#C9303A", align="center", valign="middle")
     blurb = ("From wake-up stretches to bedtime stories, little hands trace big, friendly dotted lines all day long. "
-             "78 bright pages build first pre-writing skills one gentle step at a time.")
+             f"78 bright pages build first pre-writing skills one gentle step at a time. Created by {AUTHOR}.")
     p.text(blurb, ox + 0.9, oy + 2.0, W - 1.8, 1.0, "body", 12.5, T.INK, align="center", leading=1.35)
     for i, (k, name, col) in enumerate(FRIENDS):
         x = ox + W * (i + 0.5) / 3
